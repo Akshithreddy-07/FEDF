@@ -38,17 +38,17 @@ function App() {
     
     <section class="grid-container">
         <div class="grid-item">
-            <img src="src\assets\onepiece.jpg" alt="Icon"/>
+            <img src="https://wallpapercave.com/wp/wp11636749.jpg" alt="Icon"/>
             <h3>One Piece</h3>
                     <p>Driven by the dream of finding the "One Piece," Monkey D. Luffy leads the Straw Hat Pirates through a treacherous, world-spanning odyssey to challenge the oppressive World Government and claim the title of Pirate King.</p>
         </div>
         <div class="grid-item">
-            <img src="src\assets\naruto.jpg" alt="Icon"/>
+            <img src="https://th.bing.com/th/id/OIP.gioZIHRgH90uWDNQliLNOQHaKt?w=207&h=300&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Icon"/>
            <h3>Naruto</h3>
                     <p>An outcast boy with a powerful demon inside him fights to earn his village's respect and become their greatest leader.</p>
         </div>
         <div class="grid-item">
-            <img src="src\assets\blackClover.png" alt="Icon"/>
+            <img src="https://i.pinimg.com/736x/09/65/57/0965577ed8c1c05f51ee27089f96bf0a.jpg" alt="Icon"/>
             <h3>Black Clover</h3>
                     <p>Two students hide their true selves until they find comfort in each other.</p>
         </div>
@@ -57,7 +57,7 @@ function App() {
    
     <section class="rows-section">
         <div class="flex-row">
-            <img src="src\assets\nManga.jpg" alt="Small Thumb"/>
+            <img src="https://dwgkfo5b3odmw.cloudfront.net/manga/thumbs/thumb-603-nar_01_web.jpg" alt="Small Thumb"/>
            
                 <div class="author">
                      <h2>Masashi Kishimoto's Legacy</h2>
@@ -71,7 +71,7 @@ function App() {
                 </div>
         </div>
         <div class="flex-row">
-            <img src="src\assets\oManga.jpg" alt="Small Thumb"/>
+            <img src="https://dwgkfo5b3odmw.cloudfront.net/manga/thumbs/thumb-715-ONP_01_web_reprint24.jpg" alt="Small Thumb"/>
             <div class="author">
                 <h2>The Masterpiece of Eiichiro Oda</h2>
                     <p>
