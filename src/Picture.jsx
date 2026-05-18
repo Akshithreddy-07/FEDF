@@ -8,7 +8,7 @@ function Picture(){
        <header class="hero-header">
          <div class="hero-text">
            <h1 >カイヅクウ</h1>
-         <img src="src\assets\arrow-removebg-preview.png" alt="Scroll Down" className="imaa"/>
+         <img src="arrow-removebg-preview.png" alt="Scroll Down" className="imaa"/>
         
          </div>
        </header>
