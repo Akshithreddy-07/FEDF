@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Picture from "./Picture";
 
-function Form() {
+function Form({ setPage }) {
     const [name, setName] = useState("")
     const [password, setPassword] = useState("")
     const [msg,setMsg]=useState("")
@@ -15,9 +15,11 @@ function Form() {
             <p>Welcome, {name}! </p>
             <form onSubmit={(e)=>{
                 e.preventDefault()
-                if(cname===name&&cpwd===password){
-                    // setMsg("Login successful")
-                   <picture/>
+                if(cname===name && cpwd===password){
+                    setMsg("Login successful")
+                  setTimeout(() => {
+                    setPage('Picture');
+                  },500);
                 }
                 else{
                     setMsg("Invalid credentials") 
