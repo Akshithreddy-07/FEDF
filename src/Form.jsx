@@ -6,8 +6,8 @@ function Form({ setPage }) {
     const [name, setName] = useState("")
     const [password, setPassword] = useState("")
     const [msg,setMsg]=useState("")
-    const cname="Section-9"
-    const cpwd="goodkids@9"
+    const cname="Anime"
+    const cpwd="Anime"
    
     return (
         <div class="form">
