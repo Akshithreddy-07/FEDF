@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Picture from './Picture'; 
 import './App.css';
+import Review from './Review'
 import Form from './Form';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
    <div className="nav-links">
     <a href="#" onClick={(e) => { e.preventDefault(); setPage('home'); }}>Home</a>
     <a href="#" onClick={(e) => { e.preventDefault(); setPage('pics'); }}>Pictures</a>
+    <a href="#" onClick={(e) => { e.preventDefault(); setPage('Review');}}>Reviews</a>
   <a href="https://www.crunchyroll.com" target='_blank' rel="noreferrer">
     Watch Now
   </a>
@@ -59,7 +61,7 @@ function App() {
         <div className="flex-row">
             <img src="https://dwgkfo5b3odmw.cloudfront.net/manga/thumbs/thumb-603-nar_01_web.jpg" alt="Small Thumb"/>
            
-                <div class="author">
+                <div className="author">
                      <h2>Masashi Kishimoto's Legacy</h2>
                     <p>
                         Created by <strong>Masashi Kishimoto</strong>, the manga debuted in <i>Weekly Shōnen Jump</i> in 1999 and ran for 15 years. It is one of the "Big Three" shonen manga that defined a generation.
@@ -105,11 +107,12 @@ function App() {
     </div>
       ) : page === 'pics' ? (
          <Form setPage={setPage} />
-       // <Picture />
+      ) : page === 'Review' ? (
+        <Review/>
       ) : (
         <Picture/>
       )
-      }
+    }
       </div>
     
     
